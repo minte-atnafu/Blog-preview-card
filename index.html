@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code</title>
+    <style>
+        body{
+            background-color: bisque;
+            
+        }
+        .box{
+           width: 620px; /* Set fixed width */
+           margin: 0 auto;
+           background-color: aliceblue;
+           display: grid;
+           place-items: center;
+           border-radius: 15px;
+           margin-bottom: 20px;
+           
+        }
+        .first-box{
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        }
+        .second-box{
+            margin-bottom: 40px;
+        }
+        .mainText{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+        }
+        h1{
+            margin-bottom: 20px;
+            
+        }
+        p{
+            margin: 1px;
+           
+        }
+     
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="first-box">
+          <img  style="border-radius: 15px;" src="images/image-qr-code.png" alt="">
+        </div>
+        <div class="second-box">
+            <h1 style="font-size: 24px; font-weight: bold;">Improve your front-end <br> skill by buiiding projects</h1>
+            <div class="mainText">
+            <p class="firstText">Scan the QR code to visit Frontend </p> 
+            <p class="secondText">Mentor and take your coding skills to </p>
+            <p class="thirdText">the next level</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
