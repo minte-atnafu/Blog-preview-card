@@ -4,6 +4,20 @@ body{
     align-items: center;
     justify-items: center;
 }
+@media screen and (max-width: 768px) {
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card {
+        width: 90%; 
+        max-width: 400px;
+    }
+}
+
 .card{
     position: relative;
     width:380px;
