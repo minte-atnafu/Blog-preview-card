@@ -3,61 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR code</title>
-    <style>
-        body{
-            background-color: bisque;
-            
-        }
-        .box{
-           width: 620px; /* Set fixed width */
-           margin: 0 auto;
-           background-color: aliceblue;
-           display: grid;
-           place-items: center;
-           border-radius: 15px;
-           margin-bottom: 20px;
-           
-        }
-        .first-box{
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 20px;
-            
-        }
-        .second-box{
-            margin-bottom: 40px;
-        }
-        .mainText{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center; 
-        }
-        h1{
-            margin-bottom: 20px;
-            
-        }
-        p{
-            margin: 1px;
-           
-        }
-     
-    </style>
+    <title>Blog priview card</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="box">
-        <div class="first-box">
-          <img  style="border-radius: 15px;" src="images/image-qr-code.png" alt="">
-        </div>
-        <div class="second-box">
-            <h1 style="font-size: 24px; font-weight: bold;">Improve your front-end <br> skill by buiiding projects</h1>
-            <div class="mainText">
-            <p class="firstText">Scan the QR code to visit Frontend </p> 
-            <p class="secondText">Mentor and take your coding skills to </p>
-            <p class="thirdText">the next level</p>
-        </div>
-        </div>
+    <div class = "card">
+          <img src="assets/illustration-article.svg" alt="illustration-article">
+          <div class="text">
+            <span class="button">Learning</span>
+            <p class="date">Published 24 Nov 2024</p>
+            <P class="title">HTML & CSS foundations</P>
+            <p class="description">These languages are the backbone of every <br>    website, defining structure, content, and <br> presentation.</p>
+          </div>
+          <div class="author">
+            <img src="assets/image-avatar.webp" alt="">
+            <p>Greg Hooper</p>
+          </div>
     </div>
 </body>
 </html>
